@@ -1,0 +1,93 @@
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: al;
+	src: url("../font/Aboreto-Regular.ttf")
+}
+}
+.logo{
+	font-family: releway;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	padding: 	18px 0px 0px 0px
+}
+.logo a{
+	font-size: 32px;
+	color: #6C6767;
+	text-decoration: none;
+}
+.nav{
+	width: auto;
+	display: flex;
+	justify-content: flex-end;
+	height: 70px;
+	font-family: al;
+	font-size: 13px;
+	align-items: center;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 12px;
+	position: relative;
+}
+.nav li a{
+	color: #6C6767;
+	text-decoration: none;
+}
+.sub-menu{
+	position: absolute;
+	top: 35px;
+	background: rgba(237,237,237,0.25);
+	text-align: center;
+	left: -55px;
+	display: none;
+	font-size: 30px;
+	font-family: al;
+}
+.nav li:hover .sub-menu {
+	display: block;
+}
+.new{
+	padding: 80px 0px;
+	text-align: center;
+}
+.new h1{
+	text-align: center;
+	font-family: al;
+	color:#232323;
+}
+.new a{
+	font-family: al;
+	font-size: 16px;
+	color: #6C6767;
+}
+.conten a{
+	font-family: al;
+	color: #232323;
+	font-size: 15px;
+}
+.hinh{
+	margin-top: 42px;
+}
+.about h1{
+	display: flex;
+	justify-content: center;
+	font-family: al;
+	color:#232323;
+	margin-bottom: 55px;
+}
+.about a{
+	font-family: al;
+	font-size: 20px;
+}
+.anh{
+	padding-left: 60px;
+}
